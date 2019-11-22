@@ -10,6 +10,8 @@ required.
 
 PyPi project page: <https://pypi.org/project/enforce-typing/>
 
+Heavily inspired from [this SO post](https://stackoverflow.com/questions/50563546/validating-detailed-types-in-python-dataclasses/50622643#50622643) so credit goes mostly to him.
+
 ## Installation
 
 Other than downloading from PyPi with

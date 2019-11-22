@@ -6,6 +6,10 @@ Seeing as this uses type annotations from `PEP 484`_, >=Python 3.5 is required.
 
 PyPi project page: https://pypi.org/project/enforce-typing/
 
+Heavily inspired from `this SO post`_ so credit goes mostly to him.
+
+.. _this SO post: https://stackoverflow.com/questions/50563546/validating-detailed-types-in-python-dataclasses/50622643#50622643
+
 .. _PEP 484: https://www.python.org/dev/peps/pep-0484/
 
 __ PEP484_
