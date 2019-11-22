@@ -7,7 +7,7 @@ from enforce_typing import get_version
 
 HERE = path.abspath(path.dirname(__file__))
 
-with open(path.join(HERE, "README.rst"), encoding="utf-8") as f:
+with open(path.join(HERE, "README.md"), encoding="utf-8") as f:
     LONG_DESCRIPTION = f.read()
 
 if __name__ == "__main__":
@@ -16,6 +16,7 @@ if __name__ == "__main__":
         version=get_version(),
         description="An easy to use decorator to enforce static typing for function and dataclasses.",
         long_description=LONG_DESCRIPTION,
+        long_description_content_type="text/markdown",
         author="Joshua Logan",
         author_email="joshua@matcha.wine",
         url="https://github.com/matchawine/python-enforce-typing",
