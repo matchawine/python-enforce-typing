@@ -15,7 +15,7 @@ Installation
 
 Other than downloading from PyPi with `pip`, you may also clone the repository and run the usual setuptools process::
 
-  $> git clone https://github.com/matchawine/python-static-typing.git && cd python-static-typing
+  $> git clone https://github.com/matchawine/python-enforce-typing.git && cd python-enforce-typing
   $> python setup.py {build,install}
 
 
@@ -26,7 +26,7 @@ Usage
 
   from typing import Any, Union, Optional
   from dataclasses import dataclass
-  from static_typing import enforce_types
+  from enforce_typing import enforce_types
 
   @enforce_types
   @dataclass(frozen=True)

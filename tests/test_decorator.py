@@ -1,7 +1,7 @@
 import pytest
 from typing import Any, Union, Optional
 from dataclasses import dataclass
-from static_typing import enforce_types
+from enforce_typing import enforce_types
 
 
 def test_enforce_types_class():

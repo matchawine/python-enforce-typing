@@ -3,7 +3,7 @@
 from os import path
 from io import open
 from setuptools import setup, find_packages
-from static_typing import get_version
+from enforce_typing import get_version
 
 HERE = path.abspath(path.dirname(__file__))
 
@@ -12,13 +12,13 @@ with open(path.join(HERE, "README.rst"), encoding="utf-8") as f:
 
 if __name__ == "__main__":
     setup(
-        name="static_typing",
+        name="enforce-typing",
         version=get_version(),
         description="An easy to use decorator to enforce static typing for function and dataclasses.",
         long_description=LONG_DESCRIPTION,
         author="Joshua Logan",
         author_email="joshua@matcha.wine",
-        url="https://github.com/matchawine/python-static-typing",
+        url="https://github.com/matchawine/python-enforce-typing",
         packages=find_packages(),
         license="GPL",
         keywords="decorators typing",
