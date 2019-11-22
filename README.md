@@ -8,7 +8,7 @@ Seeing as this uses type annotations from
 [PEP 484](https://www.python.org/dev/peps/pep-0484/), \>=Python 3.5 is
 required.
 
-PyPi project page: \[TBU\]
+PyPi project page: <https://pypi.org/project/enforce-typing/>
 
 ## Installation
 

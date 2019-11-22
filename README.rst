@@ -4,7 +4,7 @@ Works with collection types and subtypes for example ``Dict[str, Tuple[int, int]
 
 Seeing as this uses type annotations from `PEP 484`_, >=Python 3.5 is required.
 
-PyPi project page: [TBU]
+PyPi project page: https://pypi.org/project/enforce-typing/
 
 .. _PEP 484: https://www.python.org/dev/peps/pep-0484/
 
