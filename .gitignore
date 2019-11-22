@@ -1,0 +1,16 @@
+# Build and runtime related files
+*.pyc
+*.egg-info/
+__pycache__
+dist/
+build/
+\.eggs
+\.cache
+\.coverage*
+
+# IDE related files (emacs, PyCharm and vscode-insiders with pyenv)
+*~
+\#*\#
+\.vscode/
+\.idea/
+\.python-version
