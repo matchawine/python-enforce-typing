@@ -31,8 +31,8 @@ Usage
   @enforce_types
   @dataclass(frozen=True)
   class Toto(object):
-      this_or_that: Union[str, int]
-      anything: Any
+      what_was_that: Union[str, int]
+      something: Any
       name: str = ""
       value: int = 1
       maybe_not: Optional[bool] = None
