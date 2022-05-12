@@ -22,13 +22,17 @@ class TestDecorateFunction(unittest.TestCase):
     def test_all_good_provide_all(self):
         function(what_was_that="toto", something=list(), maybe_not=False, no_hint=1.0)
 
+    def test_no_hint_can_be_str(self):
+        function(what_was_that=1, something=2, no_hint="yes")
+
+    def test_no_hint_can_be_int(self):
+        function(what_was_that=1, something=2, no_hint=1)
+
     def test_list_instead_of_str_or_int(self):
         with self.assertRaises(TypeError):
             function(what_was_that=list(), something=2)
 
-    def test_int_in_no_hint(self):
-        """wouldn't it be preferable to ignore args without hint?
-        """
+    def test_int1_instead_of_bool(self):
         with self.assertRaises(TypeError):
             function(what_was_that=1, something=2, maybe_not=1)
 

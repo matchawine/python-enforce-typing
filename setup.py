@@ -14,7 +14,8 @@ if __name__ == "__main__":
     setup(
         name="enforce-typing",
         version=get_version(),
-        description="An easy to use decorator to enforce static typing for function and dataclasses.",
+        description=("An easy to use decorator to enforce static typing"
+                     " for functions and dataclasses."),
         long_description=LONG_DESCRIPTION,
         long_description_content_type="text/markdown",
         author="Joshua Logan",
